@@ -1,0 +1,502 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 09:33:41
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.27                                |7.4.12
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2021-03-13 18:34:20
+WP VERSION__________: 5.7
+DUP VERSION_________: 1.4.0
+DB__________________: 5.6.41
+DB TABLES___________: 18
+DB ROWS_____________: 1,091
+DB FILE SIZE________: 3.44MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.12 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.12 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1
+DOC ROOT____________: "/Applications/MAMP/htdocs/shanasite"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/shanasite/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Applications/MAMP/htdocs/shanasite/20210313_shanilfernando_[HASH]_20210313183420_archive.zip"
+SIZE________________: 52.62MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 09:33:52 - RUNTIME: 11.2681 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) [CODE:2|FILE:/Applications/MAMP/htdocs/shanasite/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: NO)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'shanil'@'localhost' (using password: YES) [CODE:2|FILE:/Applications/MAMP/htdocs/shanasite/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'shanil'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'shanil'@'localhost' (using password: YES) [CODE:2|FILE:/Applications/MAMP/htdocs/shanasite/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'shanil'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'navin_wp839'@'localhost' (using password: YES) [CODE:2|FILE:/Applications/MAMP/htdocs/shanasite/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'navin_wp839'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'navin_wp839'@'localhost' (using password: YES) [CODE:2|FILE:/Applications/MAMP/htdocs/shanasite/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'navin_wp839'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'navin_wp839'@'localhost' (using password: YES) [CODE:2|FILE:/Applications/MAMP/htdocs/shanasite/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'navin_wp839'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'navin_wp839'@'localhost' (using password: YES) [CODE:2|FILE:/Applications/MAMP/htdocs/shanasite/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'navin_wp839'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:45:18
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.32 -- Build Server: 5.6.41
+FILE SIZE:	dup-database__[HASH].sql (2.12MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/shanasite/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	171
+
+wpww_actionscheduler_actions: (23)
+wpww_actionscheduler_claims: (0)
+wpww_actionscheduler_groups: (3)
+wpww_actionscheduler_logs: (61)
+wpww_commentmeta: (0)
+wpww_comments: (1)
+wpww_duplicator_packages: (0)
+wpww_links: (0)
+wpww_options: (202)
+wpww_postmeta: (527)
+wpww_posts: (230)
+wpww_term_relationships: (15)
+wpww_term_taxonomy: (6)
+wpww_termmeta: (0)
+wpww_terms: (6)
+wpww_usermeta: (31)
+wpww_users: (1)
+wpww_wpforms_tasks_meta: (8)
+Removed '57' cache/transient rows
+
+INSERT DATA RUNTIME: 2.1985 sec.
+STEP-2 COMPLETE @ 10:45:20 - RUNTIME: 2.2069 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:46:22
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Shanil Fernando"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home3/navin/shanilfernando.me"
+path_new______________: "/Applications/MAMP/htdocs/shanasite"
+siteurl_______________: "http://localhost:8888/shanasite"
+url_old_______________: "http://shanilfernando.me"
+url_new_______________: "http://localhost:8888/shanasite"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wpww_actionscheduler_actions"____________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+
+EVALUATE TABLE: "wpww_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpww_actionscheduler_groups"_____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+
+EVALUATE TABLE: "wpww_actionscheduler_logs"_______________________[ROWS:    61][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+
+EVALUATE TABLE: "wpww_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpww_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+
+EVALUATE TABLE: "wpww_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpww_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpww_options"____________________________________[ROWS:   202][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+
+EVALUATE TABLE: "wpww_postmeta"___________________________________[ROWS:   527][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+
+EVALUATE TABLE: "wpww_posts"______________________________________[ROWS:   230][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+
+EVALUATE TABLE: "wpww_term_relationships"_________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+
+EVALUATE TABLE: "wpww_term_taxonomy"______________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+
+EVALUATE TABLE: "wpww_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpww_terms"______________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+
+EVALUATE TABLE: "wpww_usermeta"___________________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+
+EVALUATE TABLE: "wpww_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+
+EVALUATE TABLE: "wpww_wpforms_tasks_meta"_________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/navin/shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  2:"\/home3\/navin\/shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  3:"%2Fhome3%2Fnavin%2Fshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  4:"\home3\navin\shanilfernando.me" ==================> "/Applications/MAMP/htdocs/shanasite"
+	SEARCH  5:"\\home3\\navin\\shanilfernando.me" ===============> "\/Applications\/MAMP\/htdocs\/shanasite"
+	SEARCH  6:"%5Chome3%5Cnavin%5Cshanilfernando.me" ============> "%2FApplications%2FMAMP%2Fhtdocs%2Fshanasite"
+	SEARCH  7:"//shanilfernando.me" =============================> "//localhost:8888/shanasite"
+	SEARCH  8:"\/\/shanilfernando.me" ===========================> "\/\/localhost:8888\/shanasite"
+	SEARCH  9:"%2F%2Fshanilfernando.me" =========================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 10:"//www.shanilfernando.me" =========================> "//localhost:8888/shanasite"
+	SEARCH 11:"\/\/www.shanilfernando.me" =======================> "\/\/localhost:8888\/shanasite"
+	SEARCH 12:"%2F%2Fwww.shanilfernando.me" =====================> "%2F%2Flocalhost%3A8888%2Fshanasite"
+	SEARCH 13:"https://localhost:8888/shanasite" ================> "http://localhost:8888/shanasite"
+	SEARCH 14:"https:\/\/localhost:8888\/shanasite" =============> "http:\/\/localhost:8888\/shanasite"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fshanasite" ======> "http%3A%2F%2Flocalhost%3A8888%2Fshanasite"
+--------------------------------------
+SCANNED:	Tables:18 	|	 Rows:1114 	|	 Cells:9102 
+UPDATED:	Tables:3 	|	 Rows:204 	|	 Cells:226 
+ERRORS:		0 
+RUNTIME:	0.204700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:46:22 - RUNTIME: 0.2717 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
